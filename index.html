@@ -13,15 +13,28 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Amita|Crimson+Text|Dancing+Script|Great+Vibes|IBM+Plex+Sans|Merriweather|Oxygen|Pacifico|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    
+    <!-- font-family: 'IBM Plex Sans', sans-serif;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-family: 'Roboto Slab', serif;
+	    font-family: 'Merriweather', serif;
+	    font-family: 'Oxygen', sans-serif;
+	    font-family: 'Crimson Text', serif;
+	    font-family: 'Amita', cursive;
+	    font-family: 'Pacifico', cursive;
+	    font-family: 'Dancing Script', cursive;
+	    font-family: 'Great Vibes', cursive; -->
 
 </head>
 
 <body>
 
-	<div class="firstPageBack" data-parallax="scroll" data-image-src="img/pexels-photo-356056.jpeg">
-	
-        <nav class="navbar navbar-default container">
-          <div class="container-fluid">
+	<div class="firstPageBack container-fluid" data-parallax="scroll" data-image-src="img/pexels-photo-356056.jpeg">
+ 
+        <nav class="navbar navbar-default">
+          <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,165 +43,253 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">Abhishek</a>
-              </div>
-              
-              <div>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
-                  <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
-                  <li><a href="#"><img src="img/git.png" alt=""></a></li>
+              <a class="brand" href="#">Abhishek</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
                   <li><a href="#">About</a></li>
                   <li><a href="#">Portfolio</a></li>
                   <li><a href="#">Contact</a></li>
-                  <a class="btn btn-default" href="#" role="button">Github Project</a>
-                </ul>
-              </div><!-- /.navbar-collapse -->
+                  
+                  <a class="btn btn-default btn-git" href="#" role="button">Github Project</a>
+              </ul>
+            </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
 
 	</div>
 	
 	<div class="container aboutMe">
-        <center>About Me</center>
+        <center><p class="aboutHead">About Me</p></center>
         <center>
             <div>
                 <div class="row card">
-                  <p>Abhishek Kumar</p>
-                  <div class="col-md-8">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum vero est qui impedit accusantium ducimus, illum cumque! Rerum ad quam aliquid qui modi fuga eius! Velit suscipit animi consequatur eos!</p>  
+                  
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                      <p class="aboutPara">Hi,</p>  
+                      <p class="aboutParaDesc">I'm a student Android and FrontEnd Developer currently pursuing my BE from BIT Patna with specializations in Information Technology.I mostly like to solve the real life related problem with Android apps.</p>
+                      <p class="aboutParaDesc">I have made some Apps to solve the real life problem like HelpMe and RemindMe which can help people in many ways</p>
+                      <p class="aboutParaDesc">To know more about project.Please,Visit Portfolio section</p>
                   </div>
-                  <div class="col-md-4">
-                      <img src="img/pexels-photo-450035.jpeg" alt="" width="300px" height="300px">
+                  <div class="col-md-4  col-sm-12 col-xs-12">
+                      <img src="img/me.jpg" alt="" width="200px" height="200px" class="myImage">
+                      <p class="abhishekName">It's Me</p>
                   </div>
                 </div>
             </div>
         </center>
 	</div>
-	
+
 	<div class="Experinced container">
         
-        <center>Experinced</center>
-        
-        <div class="progress">
-             <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-               <span>FrontEnd Development</span>
+        <center><p class="ExpHead">What I can do</p></center>
+            <div class="progress">
+                 <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="100" aria-valuemax="100" style="width: 4%">
+                   <span>Node.js</span>
+                   </div>
+            </div>
+            
+            <div class="progress">
+               <div class="progress-bar progress-bar-front" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                 <span>FrontEnd</span>
                </div>
             </div>
             
             <div class="progress">
-               <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                 <span>Java</span>
-               </div>
-            </div>
-            
-            <div class="progress">
-               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+               <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
                    <span>Kotlin</span>
                </div>
             </div>
             
             <div class="progress">
-               <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                  <span>Android Sdk</span>
+               <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                  <span>C and c++</span>
                </div>
             </div>
             
             <div class="progress">
-               <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                  <span>C</span>
+               <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                  <span>Java</span>
                </div>
             </div>
             
             <div class="progress">
-               <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+               <div class="progress-bar progress-bar-kotlin" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
                   <span>Git</span>
                </div>
             </div>
             
             <div class="progress">
-                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-                    <span>Backend</span>
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                    <span>Android Development</span>
                 </div>
             </div>
-            
 	    </div>
 	    
-    <div>
-        <center>PortFolio</center>
+    <div class="container port">
+        <center><p class="portfolio">PortFolio</p></center>
+        
         <center>
-            <div>
-                <div class="row card">
-                  <p>Help Me</p>
+            <div class="card">
+                <div>
+                    <div class="col-md-9 col-sm-6  col-xs-12">
+                        <p class="head">Help Me</p>
+                    </div>
+            
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                       <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Info</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Apk</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Code</button> 
+                       </div>
+                    </div>
+                </div>
+                <div class="row">
                   <div class="col-md-12">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aliquid, reiciendis ea natus dolor nemo laudantium voluptate veritatis. Et dolorum earum ipsa alias debitis optio corrupti suscipit, commodi cupiditate tempora nihil tempore temporibus libero velit fugiat animi quo quibusdam in eligendi ratione? Voluptatibus sapiente reprehenderit hic sint aspernatur incidunt. Saepe adipisci in eligendi facilis facere, soluta aliquam ut quo iusto totam ad quasi quos tenetur eos optio, delectus dignissimos, consequuntur.</p>
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
+                      
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
                   </div>
-                  <div  class="col-md-6">
-                       <button type="button" class="btn btn-success">More About</button>  
-                  </div>
-                  <div  class="col-md-6">
-                      <button type="button" class="btn btn-success">Code</button>
-                  </div>
+    
                 </div>
             </div>
         </center>
         
         <center>
-            <div>
-                <div class="row card">
-                  <p>Help Me</p>
+            <div class="card">
+                <div>
+                    <div class="col-md-9 col-sm-6  col-xs-12">
+                        <p class="head">BPL</p>
+                    </div>
+            
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                       <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Info</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Apk</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Code</button> 
+                       </div>
+                    </div>
+                </div>
+                <div class="row">
                   <div class="col-md-12">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aliquid, reiciendis ea natus dolor nemo laudantium voluptate veritatis. Et dolorum earum ipsa alias debitis optio corrupti suscipit, commodi cupiditate tempora nihil tempore temporibus libero velit fugiat animi quo quibusdam in eligendi ratione? Voluptatibus sapiente reprehenderit hic sint aspernatur incidunt. Saepe adipisci in eligendi facilis facere, soluta aliquam ut quo iusto totam ad quasi quos tenetur eos optio, delectus dignissimos, consequuntur.</p>
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
+                      
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
                   </div>
-                  <div  class="col-md-6">
-                       <button type="button" class="btn btn-success">More About</button>  
-                  </div>
-                  <div  class="col-md-6">
-                      <button type="button" class="btn btn-success">Code</button>
-                  </div>
+    
                 </div>
             </div>
         </center>
         
         <center>
-            <div>
-                <div class="row card">
-                  <p>Help Me</p>
+            <div class="card">
+                <div>
+                    <div class="col-md-9 col-sm-6  col-xs-12">
+                        <p class="head">GetMyRepo</p>
+                    </div>
+            
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                       <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Info</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Apk</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Code</button> 
+                       </div>
+                    </div>
+                </div>
+                <div class="row">
                   <div class="col-md-12">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aliquid, reiciendis ea natus dolor nemo laudantium voluptate veritatis. Et dolorum earum ipsa alias debitis optio corrupti suscipit, commodi cupiditate tempora nihil tempore temporibus libero velit fugiat animi quo quibusdam in eligendi ratione? Voluptatibus sapiente reprehenderit hic sint aspernatur incidunt. Saepe adipisci in eligendi facilis facere, soluta aliquam ut quo iusto totam ad quasi quos tenetur eos optio, delectus dignissimos, consequuntur.</p>
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
+                      
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
                   </div>
-                  <div  class="col-md-6">
-                       <button type="button" class="btn btn-success">More About</button>  
-                  </div>
-                  <div  class="col-md-6">
-                      <button type="button" class="btn btn-success">Code</button>
-                  </div>
+    
                 </div>
             </div>
         </center>
         
         <center>
-            <div>
-                <div class="row card">
-                  <p>Help Me</p>
+            <div class="card">
+                <div>
+                    <div class="col-md-9 col-sm-6  col-xs-12">
+                        <p class="head">RemindMe</p>
+                    </div>
+            
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                       <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Info</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Apk</button> 
+                       </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                           <button type="button" class="btn btn-port">Code</button> 
+                       </div>
+                    </div>
+                </div>
+                <div class="row">
                   <div class="col-md-12">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aliquid, reiciendis ea natus dolor nemo laudantium voluptate veritatis. Et dolorum earum ipsa alias debitis optio corrupti suscipit, commodi cupiditate tempora nihil tempore temporibus libero velit fugiat animi quo quibusdam in eligendi ratione? Voluptatibus sapiente reprehenderit hic sint aspernatur incidunt. Saepe adipisci in eligendi facilis facere, soluta aliquam ut quo iusto totam ad quasi quos tenetur eos optio, delectus dignissimos, consequuntur.</p>
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
+                      
+                      <p class="paraPort">I participated in Google Summer of Code-2017 with AboutCode organisation. Google Summer of Code is a coding competition in which you spend your summer writing code for any of the open source organisations and Google pays you for doing that. 
+                                <br>
+                      I spent my summer writing a Server API using Django Rest Framework, POSTgreSQL and many more technologies for the organisation. 
+                                <br>
+                      This project acted as the base for numerous jobs and internship offers for doing that work. </p>
                   </div>
-                  <div  class="col-md-6">
-                       <button type="button" class="btn btn-success">More About</button>  
-                  </div>
-                  <div  class="col-md-6">
-                      <button type="button" class="btn btn-success">Code</button>
-                  </div>
+    
                 </div>
             </div>
         </center>
         
     </div>
     
-    <center>
-        <button class="btn-default1 moreList" type="submit">Give Suggestion</button>
-    </center>
+    <div data-parallax="scroll" data-image-src="img/dev.png">
+       <center>
+            <button class="btn-default1 feedback" type="submit">Improvemnet Feedback</button>
+       </center>
+    </div>
     
     <footer>
         <div class="row">

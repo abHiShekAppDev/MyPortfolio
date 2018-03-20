@@ -4,39 +4,233 @@
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
+   
 }
 
+.navbar-default{
+    background-color: #263C49;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 0px;
+    border-radius: 0px;
+    padding-top: 20px;
+    opacity: 0.8;
+    height: 95px;
+}
+
+.brand{
+   font-family: 'Dancing Script', cursive;
+   font-size: 3em;
+   color: #fff; 
+}
+
+.brand:hover{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+    font-display: block;
+    font-style: normal;
+    font-size: 1.3em;
+    font-family:'Roboto Condensed', sans-serif;
+    margin-right: 10px;
+}
+
+.btn-git{
+     min-width: 90px;
+    min-height: 40px;
+    background: #00000000;
+    margin-left: 30px;
+    color: white;
+    border: 1.5px white solid;
+    margin-top: 4px;
+}
+
+.btn-git:hover{
+    background: #fff;
+}
+
+
 .aboutMe{
-    background-color: white;
+    background-color: #ffffff;
     width: 100%;
-    height: 670px;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 650px;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.4);
     transition: 0.3s;
-    margin-left: 100px;
-    margin-right: 100px;
     margin-top: 50px;
+    margin-bottom: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: white;
 }
 
-./* card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.aboutHead{
+    color: #000000;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
 }
 
-Add some padding inside the card container
-.container {
-    padding: 2px 16px;
-} */
+.abhishekName{
+    font-size: 2.2em;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+}
+
+.myImage{
+    border-radius: 200px;
+    margin-top: 10px;
+}
+
+.aboutPara{
+    margin-top: 5px;
+    font-family: 'Dancing Script', cursive;
+    color: #4d4d4d;
+    font-size: 2.2em;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.aboutParaDesc{
+    color: #4d4d4d;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Oxygen', sans-serif;
+}
+
 
 .Experinced{
-
+    min-height: 650px;
+    background-color: #2C2C2C;
     width: 100%;
-    height: 1000px;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 1%;
+    padding-right: 10%;
 }
 
+.ExpHead{
+    color: #ffffff;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-bar-front{
+    background-color: #ff6666;
+}
+
+.progress-bar-kotlin{
+    background-color: #ff3333;
+}
+
+.progress-bar-c{
+    background-color: #ff0000;
+}
+
+.progress-bar-java{
+    background-color: #cc0000;
+}
+
+.progress-bar-git{
+    background-color:  #b30000;
+}
+
+.progress-bar-android{
+    background-color: #00ff00;
+}
+
+.progress{
+    height: 25px;
+    margin-top: 40px;
+}
+
+
+.port{
+    min-height: 650px;
+    height: 100%;
+    widows: 100%;
+    padding-top: 50px;
+}
+
+.portfolio{
+    color: #000000;
+    font-size: 3em;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+}
+
+.head{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
+
+.btn-port{
+    background-color: #00000000;
+    border: 2px #5CB85C solid;
+    font-family: 'IBM Plex Sans', sans-serif;   
+}
+
+.btn-port:hover{
+    background-color: #5CB85C;
+    border : 0px;
+    color: white;
+}
+
+
+.paraPort{
+    color: #4d4d4d;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+
+.feedback{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.btn-default1 {
+    border-radius: 40px 40px 40px 40px;
+    border: 2px white solid;
+    min-width: 250px;
+    min-height: 60px;
+    background: #00000000;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-default1:hover {
+    background: #95badf;
+    color: wheat;
+}
+
+
+
+
+
 footer{
-    background-color: aqua;
+    background-color: #152638;
     height: 200px;
     width: 100%;
 }
