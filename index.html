@@ -18,11 +18,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     
+    <!--    js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.js"></script>
+    <script src="js/design.js"></script>
     
+    <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Amita|Crimson+Text|Dancing+Script|Great+Vibes|IBM+Plex+Sans|Merriweather|Oxygen|Pacifico|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
     
+    <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -52,11 +56,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#portSection">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
                   
-                  <a class="btn btn-default btn-git" href="#" role="button">Resume</a>
+                  <a class="btn btn-default btn-git" href="#" role="button" onclick="resume()">Resume</a>
                 
               </ul>
             </div><!-- /.navbar-collapse -->
@@ -72,7 +76,7 @@
 
 	</div>
 	
-	<div class="container aboutMe">
+	<div class="container aboutMe" id="about">
         <center><p class="aboutHead">About Me</p></center>
         <center>
             <div>
@@ -133,7 +137,7 @@
             </div>
 	    </div>
 	    
-    <div class="container port">
+    <div class="container port" id="portSection">
         <center><p class="portfolio">PortFolio</p></center>
         
         <center>
@@ -145,13 +149,13 @@
             
                     <div class="col-md-3 col-sm-6 col-xs-12">
                        <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Info</button> 
+                           <button type="button" class="btn btn-port" onclick="">Info</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Apk</button> 
+                           <button type="button" class="btn btn-port" onclick="bplApk()">Apk</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Code</button> 
+                           <button type="button" class="btn btn-port" onclick="bplCode()">Code</button> 
                        </div>
                     </div>
                 </div>
@@ -184,10 +188,10 @@
                            <button type="button" class="btn btn-port">Info</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Apk</button> 
+                           <button type="button" class="btn btn-port" onclick="helpMeapk()">Apk</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Code</button> 
+                           <button type="button" class="btn btn-port" onclick="helpMeCode()">Code</button> 
                        </div>
                     </div>
                 </div>
@@ -217,10 +221,10 @@
                            <button type="button" class="btn btn-port">Info</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Apk</button> 
+                           <button type="button" class="btn btn-port" onclick="remindMeapk()">Apk</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Code</button> 
+                           <button type="button" class="btn btn-port" onclick="helpMeCode()">Code</button> 
                        </div>
                     </div>
                 </div>
@@ -252,10 +256,10 @@
                            <button type="button" class="btn btn-port">Info</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Apk</button> 
+                           <button type="button" class="btn btn-port" onclick="getMyRepoapk()">Apk</button> 
                        </div>
                         <div class="col-md-4 col-sm-4 col-xs-4">
-                           <button type="button" class="btn btn-port">Code</button> 
+                           <button type="button" class="btn btn-port" onclick="getMyRepoCode()">Code</button> 
                        </div>
                     </div>
                 </div>
@@ -280,7 +284,7 @@
        </center>
     </div>
     
-    <footer>
+    <footer id="contact">
         <div  class="footerDivIcon">
            <center>
                <div class="col-md-2  col-xs-4 col-sm-2 footerDiv">
@@ -353,6 +357,7 @@
     
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
 
 </body>
 
