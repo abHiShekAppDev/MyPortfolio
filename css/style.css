@@ -8,7 +8,7 @@
 }
 
 .navbar-default{
-    background-color: #263C49;
+    background-color: #031044;
     position: absolute;
     left: 0;
     right: 0;
@@ -23,12 +23,28 @@
 .brand{
    font-family: 'Dancing Script', cursive;
    font-size: 3em;
-   color: #fff; 
+   color: wheat; 
+}
+
+.find{
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-size: 5em;
+}
+
+.Appart{
+   font-family: 'Crimson Text', serif;
+    margin-top: -40px;
+    color: white;
+}
+
+.firstPageCenter{
+    padding-top:250px;
 }
 
 .brand:hover{
+    color: wheat;
     text-decoration: none;
-    color: antiquewhite;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -43,7 +59,7 @@
 .btn-git{
      min-width: 90px;
     min-height: 40px;
-    background: #00000000;
+    background: #000046;
     margin-left: 30px;
     color: white;
     border: 1.5px white solid;
@@ -116,8 +132,6 @@
 
 .Experinced{
     min-height: 650px;
-    background-color: #2C2C2C;
-    width: 100%;
     height: 100%;
     padding-top: 50px;
     padding-left: 1%;
@@ -125,11 +139,26 @@
 }
 
 .ExpHead{
-    color: #ffffff;
+    color: #fff;
     font-size: 3em;
     font-family: 'Merriweather', serif;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.cardExp {
+   box-shadow:  -2px 1px #263238,
+         -3px 2px #263238,
+         -4px 3px #263238,
+         -5px 4px #263238,
+         -6px 5px #263238;
+    
+    background-color: #263238;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 0.2px solid gray;
 }
 
 .progress-bar-front{
@@ -212,25 +241,60 @@
 
 .btn-default1 {
     border-radius: 40px 40px 40px 40px;
-    border: 2px white solid;
+    border: 2px #95badf solid;
     min-width: 250px;
     min-height: 60px;
     background: #00000000;
-    color: white;
+    color: #95badf;
     font-weight: bolder;
 }
 
 .btn-default1:hover {
     background: #95badf;
-    color: wheat;
+    color: white;
 }
 
 
-
-
-
 footer{
-    background-color: #152638;
-    height: 200px;
+    background-color: #2C3E50;
+    height: 220px;
     width: 100%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footerDivIcon{
+    margin-bottom: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.contact{
+   font-family: 'Merriweather', serif;
+    font-size: 1.4em;
+    color: wheat;
+}
+
+.info{
+  color: gray;
+}
+
+
+.circle{
+    color: #fff;;
+}
+
+.icon{
+    color:#2C3E50;
+}
+
+.icon:hover{
+    color: #95badf;
+}
+
+.design{
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Oxygen', sans-serif;
 }
