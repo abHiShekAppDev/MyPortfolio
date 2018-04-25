@@ -24,12 +24,19 @@ window.open("https://drive.google.com/file/d/1A95MpviEQdouTywPs7jOSjunRkOsknAu/v
 }
 
 function getMyRepoapk(){
-   window.open("https://drive.google.com/file/d/1x6qnxjk9HYc-6mwjNRRIK68776p2Awbe/view?usp=sharing");
+   window.open("https://github.com/abHishekCoDeLab/GetMyRepo");
 }
 
 function bplApk(){ window.open("https://drive.google.com/file/d/1LYQu66D5K3XpOKAb2zwm1hq9zRWQuv5F/view");
 }
 
+function atApk(){ window.open("https://drive.google.com/file/d/1C3Q29azPlEw7a_lqE2uMnGdnfkS9J4DD/view");
+}
+
+function atCode(){
+    window.open("https://github.com/abHishekCoDeLab/AttendanceTracker"); 
+}
+
 function resume(){
-    window.open("https://drive.google.com/file/d/1cLoXY5BbH789jhv06lhPr8cbxH3Q5SLn/view?usp=sharing"); 
+    window.open("https://drive.google.com/file/d/1X_1mjanaujkL65pm2CTGucV8pIP7J_6U/view?usp=sharing"); 
 }
